@@ -51,12 +51,15 @@ function App() {
             className="search-bar"
 
             //search area
-            placeholder="CITY NAME"
+            placeholder="SEARCH BY CITY NAME"
             onChange={e => setQuery(e.target.value)}
             value={query}
             onKeyPress={search}
           />
+          
         </div>
+        
+        
         {(typeof weather.main != "undefined") ? (
         <div>
           <div className="loc-area">
@@ -73,7 +76,12 @@ function App() {
         ) : ('')}
       </main>
     </div>
+
+    
   );
+
+  
+
 }
 
 //exporting

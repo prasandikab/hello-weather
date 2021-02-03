@@ -56,6 +56,11 @@ main {
   background-color: rgba(255, 255, 255, 0.75);
 }
 
+
+.last{
+  text-align: center;
+}
+
 .loc-area .location {
   color: #FFF;
   font-size: 32px;
